@@ -1,0 +1,43 @@
+.date__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date__box div{
+    width: 50%;
+}
+
+.form__input input{
+    width: 100%;
+    padding: 6px 20px;
+    color: var(--color-bg-variant);
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid var(--color-bg-variant);
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form__input{
+    margin-bottom: 15px;
+}
+
+.form__input label{
+    color: var(--color-bg-variant);
+    margin-bottom: 10px;
+}
+
+.form__input .upload__input{
+    padding: 50px 25px;
+}
+
+.input__text{
+    width: 100%;
+}
+
+::-webkit-calendar-picker-indicator{
+    filter: invert(0);
+    cursor: pointer;
+}

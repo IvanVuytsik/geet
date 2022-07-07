@@ -1,0 +1,36 @@
+.contact__option h4 {
+    font-size: 2rem;
+    color: var(--color-bg-variant);
+}
+
+.contact__option h5 {
+    font-size: 1.6rem;
+    color: var(--color-bg-variant);
+}
+ 
+.contact__option a{
+   font-size: 1.2rem;  
+   text-decoration: none;
+   color: var(--color-bg-variant);
+}
+
+.contact__option a:hover{
+    color: inherit;
+}
+
+.contact__option a span{
+    color: var(--color-primary-variant);
+}
+
+
+
+/*-----------------media-----------------*/
+@media only screen and (max-width: 992px){
+    .contact__option h4 {
+    font-size: 1.6rem;
+    }
+
+    .contact__option h5 {
+    font-size: 1.4rem;
+    }
+}

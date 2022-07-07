@@ -1,0 +1,143 @@
+.nav__right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    line-height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    font-size: 24px;
+    background: var(--color-bg);
+}
+
+.header__box{
+    padding: 1rem;
+}
+
+.header__shrink{
+    background: var(--color-bg-darker);
+    box-shadow: 3px 3px 6px -3px var(--color-bg-variant);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+    margin-bottom: 0;
+}
+
+.nav__item a{
+    text-decoration: none;
+    color: var(--color-bg-variant);
+}
+
+.nav__item a:hover{
+    color: var(--color-primary-variant);
+}
+
+.active {
+    color: var(--color-primary) !important;
+}
+
+.logo h2 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: var(--color-bg-darker);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: var(--color-bg-variant);
+    font-size: 32px;
+}
+
+.logo h2 img {
+    /* border-radius: 50%;
+    border: 1px solid var(--color-bg-variant); */
+    width: 25%;
+    height: 25%;
+}
+
+.logo {
+    margin-bottom: 0;
+}
+ 
+
+.mobile__menu{
+    display: none;
+    color: var(--color-bg-variant);
+    font-size: 1.2rem;
+}
+
+
+/* -----------------media-----------------*/
+@media only screen and (max-width: 768px){
+    .nav__menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: transparent;
+        z-index: 20;    
+        display: none;
+    }
+
+    .active__menu{
+        display: block;
+    }
+    
+    .nav__list{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100%;
+        background: var(--color-bg);
+        border-radius: 10px;
+        border: 1px solid var(--color-bg-variant);
+        z-index: 30;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .mobile__menu{
+        display: flex;
+    }
+
+    .nav__right .btn{
+        padding: 0 28px;
+        line-height: 16px;
+    }
+
+    .nav__right .btn a{
+        font-size: 1rem;
+    }
+
+}
+
+/* --------------------------------------*/
+@media only screen and (max-width: 576px){}
+    .nav__right .btn{
+        line-height: 16px;
+    }
+
+    .nav__right .btn a{
+        font-size: 0.9rem;
+    }
+
+    .navigation {
+        gap: 2rem;
+    }

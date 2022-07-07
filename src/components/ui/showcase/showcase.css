@@ -1,0 +1,28 @@
+.showcase{
+    width: 100%;
+    background: var(--color-bg);
+    padding: 24px;
+}
+
+.showcase__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase__top span a{
+    text-decoration: none;
+    color: var(--color-bg-variant);
+    border-bottom: 1px solid var(--color-bg-variant);
+    font-size: 1.2rem;
+}
+
+.showcase__top span a:hover{
+    transition: 0.3s;
+    color: var(--color-primary-variant);
+     border-bottom: 1px solid var(--color-primary-variant);
+}
+
+.showcase__card{
+    margin-bottom: 1rem;
+}

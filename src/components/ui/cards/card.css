@@ -1,0 +1,217 @@
+.card__content{
+    margin-top: 1rem;
+}
+
+.single__card{
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.creator__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.creator__info h5{
+    color: var(--color-primary-variant);
+    margin-bottom: 0;
+    opacity: 90%;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.creator__info p{
+    color: var(--color-bg);
+    margin-bottom: 0;
+    opacity: 100%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card__img {
+    justify-content: center;
+    display: flex;
+}
+
+.card__img img{
+    background: var(--color-card-light);
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;   
+}
+
+.card__title{
+    color: var(--color-bg);
+    justify-content: center;
+    display: flex;
+}
+
+.card__title a{
+    color: var(--color-bg);
+    text-decoration: none;  
+    font-size: 1.6rem;
+}
+
+.card__title a:hover{
+    color: var(--color-primary-variant);
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.creator__data{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.creator__img{
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;  
+}
+
+.creator__img img{
+    background-color: var(--color-card-light);
+    border-radius: 50%;
+    border: 1px solid var(--color-bg-variant);
+    width: 50%;
+    height: 50%;
+}
+
+.get__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.get__btn,
+.info__btn{
+    border: none;
+    outline: none;
+    padding: 4px 20px;
+    color: var(--color-bg-variant);
+    background: var(--color-card-light);
+    border: 1px solid var(--color-bg-variant);
+    border-radius: 50px;
+    font-size: 1rem;
+    line-height: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+.get__btn a,
+.info__btn a{
+    text-decoration: none;
+    color: var(--color-bg-variant);
+    font-size: 1rem;
+}
+
+.get__btn a:hover,
+.info__btn a:hover{
+    color: var(--color-primary-variant);
+    transition: 0.3s;
+    opacity: 80%;
+}
+
+
+/* -----------------media-----------------*/
+@media only screen and (max-width: 1200px){
+    .get__btn,
+    .info__btn{
+        padding: 2px 22px;
+        line-height: 12px;
+    }
+
+    .creator__img{
+        width: 80%;
+        height: 80%;  
+    }
+
+    .creator__img img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .get__btn a,
+    .info__btn a{
+        font-size: 1rem;
+    }
+    
+}
+
+/*--------------------------------------*/
+@media only screen and (max-width: 992px){
+    .get__btn,
+    .info__btn{
+        padding: 2px 22px;
+        line-height: 12px;
+    }
+
+    .creator__img{
+        width: 60%;
+        height: 60%;  
+    }
+
+    .creator__img img{
+        width: 60%;
+        height: 60%;
+    }
+
+    .creator__info h5{
+        font-size: 0.9rem;
+    }
+
+    .creator__info p{
+        font-size: 0.9rem;
+    }
+
+    .get__btn a,
+    .info__btn a{
+        font-size: 1rem;
+    }
+
+    .card__title a{
+        font-size: 1rem;
+    }
+}
+
+/*--------------------------------------*/
+/* @media only screen and (max-width: 768px){
+ 
+       
+} */
+
+
+@media only screen and (max-width: 576px){
+    .creator__img{
+        width: 40%;
+        height: 40%;  
+    }
+
+    .creator__img img{
+        width: 40%;
+        height: 40%;
+    }
+
+    .creator__info h5{
+        font-size: 1rem;
+    }
+
+    .creator__info p{
+        font-size: 1rem;
+    }
+
+    .card__title a{
+        font-size: 1.2rem;
+    }
+
+}

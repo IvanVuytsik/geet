@@ -1,0 +1,7 @@
+.trends__section{
+    background: var(--color-bg);
+}
+
+.trends__title{
+    color: var(--color-bg-variant);
+}

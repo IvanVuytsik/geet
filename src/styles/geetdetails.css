@@ -1,0 +1,56 @@
+.icon__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.editcard__col{
+    justify-content: center;
+    align-items: center;
+}
+
+.editcard__content{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.editcard__menu{
+    width: 100%;
+    justify-content: space-between;   
+    align-items: center;
+    display: flex;
+}
+
+
+.editcard__generate,
+.editcard__randomize{
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+.editcard__generate:hover,
+.editcard__randomize:hover,
+.editcard__download:hover{
+    color: var(--color-primary-variant);
+    transition: 0.3s;
+}
+
+
+.editcard__box{
+    background: var(--color-bg);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.editcard__img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+

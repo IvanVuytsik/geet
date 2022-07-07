@@ -1,0 +1,51 @@
+.modal__wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-light);
+    z-index: 40;
+}
+
+.single__modal{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 1px solid var(--color-bg-variant);
+    background: var(--color-bg-darker);
+    padding: 30px;
+    z-index: 50;
+    font-weight: 500;
+}
+
+
+.close__info{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 60;
+}
+
+.close__info:hover{
+    color: var(--color-primary-variant);
+}
+
+.close__info i{
+    padding: 5px;
+    background: var(--color-bg-variant);
+    color: var(--color-bg);
+}
+
+
+/*----------------media-----------------*/
+@media only screen and (max-width: 576px){
+    .single__modal{
+        width: 300px;
+    }
+       
+}
